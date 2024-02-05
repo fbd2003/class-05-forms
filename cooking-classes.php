@@ -60,15 +60,15 @@ $nav_cooking_class = 'active_page';
 
         <div class="form-label">
           <input type="checkbox" name="japanese-vegetarian" id="request-vegetarian" />
-          Japanese Vegetarian
+          <label for="request-vegetarian">Japanese Vegetarian</label>
         </div>
         <div class="form-label">
           <input type="checkbox" name="sauces-masterclass" id="request-sauces" />
-          Sauces Masterclass
+          <label for="request-sauces">Sauces Masterclass</label>
         </div>
 
         <div class="form-label">
-          Email:
+          <label for="request-email">Email:</label>
           <input type="email" name="email" id="request-email" />
         </div>
 
