@@ -56,8 +56,26 @@ $nav_cooking_class = 'active_page';
 
       <p>Interesting in taking one of our cooking classes? Let us know which classes and we'll send you some information!</p>
 
-      <!-- TODO: course information request form -->
+      <form id="request-form" method="post" action="cooking-classes.php" novalidate>
 
+        <div class="form-label">
+          <input type="checkbox" name="japanese-vegetarian" id="request-vegetarian" />
+          Japanese Vegetarian
+        </div>
+        <div class="form-label">
+          <input type="checkbox" name="sauces-masterclass" id="request-sauces" />
+          Sauces Masterclass
+        </div>
+
+        <div class="form-label">
+          Email:
+          <input type="email" name="email" id="request-email" />
+        </div>
+
+        <div class="align-right">
+          <input id="request-submit" type="submit" value="Request Information" />
+        </div>
+      </form>
     </section>
 
     <cite>&copy; 2011 Yoko's Kitchen (<a href="http://www.htmlandcssbook.com/code-samples/chapter-17/example-with-links.html">Source</a>)</cite>
